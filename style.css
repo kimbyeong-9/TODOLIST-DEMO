@@ -25,7 +25,7 @@ body{
     height: 4px;
     background-color: pink;
     position: absolute;
-    width: 80px;
+    width: 60px;
     left: 0;
     top: 52px;
     padding: 0px;
@@ -35,4 +35,10 @@ body{
     justify-content: space-between;
     padding: 1em;
     border-bottom: 1px solid lightgray;
+}
+.task-done{
+    text-decoration: line-through;
+}
+.task-tabs div{
+    cursor: pointer;
 }
